@@ -1,0 +1,28 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+app/config.local.php
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Runtime and backup files
+*.log
+*.bak
+*.old
+*.zip
+*.sql~
+backup/
+backups/
+tmp/
+temp/
+
+# Local dependency/build artifacts
+vendor/
+node_modules/

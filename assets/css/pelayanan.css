@@ -1,0 +1,133 @@
+.rx-main { padding-top:30px; }
+.rx-title-row { margin-bottom:18px; }
+.rx-action-row { display:flex; align-items:center; flex-wrap:wrap; gap:9px; margin-bottom:16px; }
+.rx-subnav { justify-content:space-between; margin-bottom:15px; }
+.rx-stats { margin-bottom:18px; }
+.rx-list-panel { margin-top:0; }
+.rx-filter-bar { margin-bottom:15px; }
+.rx-filter-bar .search-field { flex-basis:320px; }
+.rx-filter-bar .filter-field { width:205px; }
+.rx-table { min-width:980px; }
+.rx-primary-cell { display:flex; flex-direction:column; gap:4px; min-width:135px; }
+.rx-primary-cell strong { color:#203b43; font-size:10px; font-weight:700; }
+.rx-primary-cell span { color:#97a39f; font-size:9px; line-height:1.45; }
+.rx-status { display:inline-flex; align-items:center; justify-content:center; max-width:180px; padding:6px 9px; border-radius:20px; font-size:8px; line-height:1.25; font-weight:700; text-align:center; white-space:nowrap; }
+.rx-status-pending { color:#936a2c; background:#fbf2e3; }
+.rx-status-process { color:#3d7195; background:#edf4fa; }
+.rx-status-partial { color:#79669a; background:#f2eff9; }
+.rx-status-complete { color:#2e806b; background:#eaf5ef; }
+.rx-status-cancelled { color:#8a9290; background:#f0f2f1; }
+.rx-guidance { display:flex; align-items:center; flex-wrap:wrap; gap:7px 13px; margin:0 0 16px; padding:13px 15px; border:1px solid #eadfc9; border-radius:10px; background:#fffaf1; color:#8a744e; font-size:10px; }
+.rx-guidance strong { color:#735b34; }
+.rx-guidance a { margin-left:auto; color:#26786e; font-size:10px; font-weight:700; }
+.rx-guidance-block { align-items:flex-start; flex-direction:column; margin-top:12px; }
+.rx-guidance-block a { margin-left:0; }
+.rx-form-panel { margin-top:0; }
+.rx-form { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px 15px; }
+.rx-form-section-title { display:flex; align-items:baseline; flex-wrap:wrap; gap:8px; grid-column:1/-1; margin:8px 0 0; padding:12px 0 0; border-top:1px solid #edf1ef; }
+.rx-form-section-title > span { display:grid; place-items:center; width:25px; height:25px; border-radius:8px; background:#eaf5f0; color:#238579; font:800 9px "Manrope",sans-serif; }
+.rx-form-section-title strong { color:#24424a; font:700 13px "Manrope",sans-serif; }
+.rx-form-section-title small { color:#91a09b; font-size:9px; }
+.rx-form-section-wide { grid-column:1/-1; }
+.rx-form .field textarea { min-height:68px; }
+.rx-form .field small a { color:#24796e; font-weight:700; }
+.rx-items-wrap { padding:14px; border:1px solid #e8efeb; border-radius:11px; background:#fbfdfb; }
+.rx-items-heading { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px; }
+.rx-items-heading strong { color:#37535a; font-size:10px; }
+.rx-items-heading span { color:#9aa6a2; font-size:9px; }
+
+.rx-preset-note { margin:-2px 0 12px; color:#879792; font-size:9px; line-height:1.55; }
+.rx-item-card .rx-custom-input[hidden] { display:none !important; }
+.rx-item-card { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:11px 13px; margin-bottom:10px; padding:13px; border:1px solid #e8efeb; border-radius:9px; background:#fff; }
+.rx-item-card:last-child { margin-bottom:0; }
+.rx-item-card-top { display:flex; align-items:center; justify-content:space-between; grid-column:1/-1; padding-bottom:7px; border-bottom:1px solid #f0f3f1; }
+.rx-item-card-top strong { color:#3d5c60; font-size:10px; }
+.rx-remove-item { padding:4px 7px; border:0; border-radius:6px; background:#fff3f1; color:#a45d4c; font-size:9px; font-weight:700; cursor:pointer; }
+.rx-remove-item:disabled { opacity:.35; cursor:not-allowed; }
+.rx-item-drug,.rx-item-notes { grid-column:1/-1; }
+.rx-add-item { min-height:36px; margin-top:11px; padding:0 12px; border:1px dashed #b9d7ca; border-radius:8px; background:#f3faf5; color:#28776c; font-size:10px; font-weight:700; cursor:pointer; }
+.rx-add-item:hover { background:#eaf5ef; }
+.rx-add-item:disabled { opacity:.5; cursor:not-allowed; }
+.rx-form-actions { display:flex; align-items:center; justify-content:flex-end; gap:9px; padding-top:3px; }
+.rx-form-actions .primary-button { min-width:185px; }
+.rx-detail-errors { margin-bottom:15px; }
+.rx-detail-hero { display:flex; align-items:center; justify-content:space-between; gap:25px; margin-bottom:16px; padding:21px 23px; border:1px solid #e5ece9; border-radius:13px; background:#fff; }
+.rx-detail-hero .section-kicker { margin-bottom:6px; }
+.rx-detail-hero h2 { margin:0; color:#183744; font:800 21px "Manrope",sans-serif; letter-spacing:-.6px; }
+.rx-detail-hero p { margin:6px 0 0; color:#849391; font-size:10px; }
+.rx-detail-total { width:min(310px,40%); }
+.rx-detail-total > span { color:#8b9996; font-size:9px; }
+.rx-detail-total > strong { display:block; margin:5px 0 9px; color:#1e3a43; font:800 20px "Manrope",sans-serif; }
+.rx-detail-total > strong small { color:#94a09c; font-size:12px; font-weight:600; }
+.rx-progress { height:6px; overflow:hidden; border-radius:10px; background:#edf2ef; }
+.rx-progress span { display:block; height:100%; border-radius:10px; background:#32927e; }
+.rx-detail-grid { display:grid; grid-template-columns:1.15fr .85fr; gap:14px; margin-bottom:14px; }
+.rx-detail-panel { margin-top:0; padding:19px; }
+.rx-detail-panel .list-heading { align-items:flex-start; margin-bottom:13px; }
+.rx-detail-panel .list-heading h2 { font-size:16px; }
+.rx-info-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px 16px; }
+.rx-info-grid > div { display:flex; flex-direction:column; gap:4px; min-width:0; }
+.rx-info-grid span { color:#93a09d; font-size:8px; }
+.rx-info-grid strong { color:#3e5b5f; font-size:10px; overflow-wrap:anywhere; }
+.rx-note-box { margin-top:13px; padding:11px 12px; border-radius:8px; background:#f6f9f7; }
+.rx-note-box strong { color:#526b68; font-size:9px; }
+.rx-note-box p { margin:5px 0 0; color:#7f8d89; font-size:9px; line-height:1.55; }
+.rx-step-note { margin-bottom:12px; padding:12px; border:1px solid #f0e4cc; border-radius:9px; background:#fffaf1; }
+.rx-step-note strong,.rx-step-note span { display:block; }
+.rx-step-note strong { color:#826637; font-size:10px; }
+.rx-step-note span { margin-top:5px; color:#96866b; font-size:9px; line-height:1.5; }
+.rx-step-success { border-color:#dceee4; background:#f2faf5; }
+.rx-step-success strong { color:#347a63; }
+.rx-step-success span { color:#78998b; }
+.rx-step-muted { border-color:#e8edeb; background:#f7f9f8; }
+.rx-step-muted strong { color:#687b76; }
+.rx-step-muted span { color:#929f9b; }
+.rx-full-button { width:100%; }
+.rx-cancel-form { margin-top:13px; padding-top:12px; border-top:1px solid #edf1ef; }
+.rx-cancel-button { margin-top:9px; padding:0; border:0; background:transparent; color:#a15e4b; font-size:9px; font-weight:700; cursor:pointer; }
+.rx-prescribed-panel { margin-bottom:14px; }
+.rx-items-table { min-width:900px; }
+.rx-item-note { display:block; margin-top:5px; color:#9aa6a2; font-size:8px; }
+.rx-remaining { color:#ad7936; }
+.rx-done { color:#32816c; }
+.rx-dispense-panel { margin-bottom:14px; }
+.rx-dispense-list { display:flex; flex-direction:column; gap:0; }
+.rx-dispense-row { display:grid; grid-template-columns:minmax(0,1fr) minmax(220px,290px); align-items:center; gap:16px; padding:12px 0; border-top:1px solid #edf1ef; }
+.rx-dispense-drug { display:flex; flex-direction:column; gap:5px; }
+.rx-dispense-drug strong { color:#304e55; font-size:10px; }
+.rx-dispense-drug span { color:#93a09d; font-size:9px; }
+.rx-dispense-row .field { gap:5px; }
+.rx-dispense-row .field small { color:#99a5a1; font-size:8px; }
+.rx-dispense-notes { margin-top:12px; }
+.rx-history-panel { margin-bottom:14px; }
+.rx-history-table { min-width:800px; }
+.qty-negative { color:#b36e45; }
+
+@media(max-width:1000px) {
+    .rx-detail-grid { grid-template-columns:1fr; }
+    .rx-filter-bar .search-field { flex-basis:100%; }
+    .rx-filter-bar .filter-field { flex:1 1 180px; width:auto; }
+}
+@media(max-width:700px) {
+    .rx-main { padding-top:22px; }
+    .rx-title-row { align-items:flex-start; }
+    .rx-action-row { align-items:stretch; }
+    .rx-action-row > a { flex:1; }
+    .rx-subnav { align-items:center; }
+    .rx-guidance { align-items:flex-start; flex-direction:column; }
+    .rx-guidance a { margin-left:0; }
+    .rx-form { grid-template-columns:1fr; }
+    .rx-form-section-title,.rx-form-section-wide { grid-column:auto; }
+    .rx-form-section-title { align-items:flex-start; }
+    .rx-form-section-title small { flex-basis:100%; margin-left:33px; }
+    .rx-item-card { grid-template-columns:1fr; }
+    .rx-item-card-top,.rx-item-drug,.rx-item-notes { grid-column:auto; }
+    .rx-form-actions { align-items:stretch; flex-direction:column-reverse; }
+    .rx-form-actions .primary-button { min-width:0; width:100%; }
+    .rx-detail-hero { align-items:flex-start; flex-direction:column; padding:17px; }
+    .rx-detail-total { width:100%; }
+    .rx-detail-panel { padding:15px; }
+    .rx-info-grid { gap:11px; }
+    .rx-dispense-row { grid-template-columns:1fr; gap:9px; }
+    .rx-detail-hero h2 { font-size:18px; }
+}

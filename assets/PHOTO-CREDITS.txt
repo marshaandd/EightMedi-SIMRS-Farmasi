@@ -1,0 +1,24 @@
+PHOTO CREDITS — EIGHTMEDI PASTEL REFRESH
+
+All photo backgrounds in the live application are loaded from Unsplash images.
+The selected Unsplash photo pages indicate that the photos are free to use under
+the Unsplash License. The photo URLs are embedded in assets/css/theme.css and
+assets/css/app.css / login.css styling.
+
+1. National Cancer Institute — pharmacist reaching for medication on shelf
+   https://unsplash.com/photos/pharmacist-reaching-for-medication-on-shelf-byGTytEGjBo
+
+2. National Cancer Institute — male pharmacist selecting a drug in a display case
+   https://unsplash.com/photos/man-in-white-dress-shirt-holding-white-paper-cw2Zn2ZQ9YQ
+
+3. David Trinks — pharmacy shelf filled with medicine bottles
+   https://unsplash.com/photos/a-pharmacy-shelf-filled-with-lots-of-medicine-bottles-mLaIFEtUZFs
+
+4. Kateryna Hliznitsova — person holding a silver blister pack
+   https://unsplash.com/photos/person-holding-silver-blister-pack-hEX5R8u7gCI
+
+5. National Cancer Institute — pharmacist examining a vial
+   https://unsplash.com/photos/person-holding-white-labeled-bottle-O13g6-Gtb5o
+
+Note: The browser needs an internet connection to load these remote photos.
+The application's PHP logic and database operations do not depend on these images.
